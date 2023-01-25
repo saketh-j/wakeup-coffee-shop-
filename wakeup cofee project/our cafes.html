@@ -1,0 +1,296 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Our cafe</title>
+       <style>
+         *{
+            box-sizing: border-box;
+        }
+         #logo img {
+            width: 105px;  
+            padding-left: 20px;
+        }
+        #header ul li {
+            display: inline-block;
+            margin: 10px;
+            padding: 1px;
+            font-size: large;
+            font-family:  rush Script MT, Brush Script Std, cursive;
+            color:#fff;
+        }
+        #header {
+            display: flex ;
+            justify-content: space-between;
+            background-color:rgba(41,40,38 );
+        } 
+        #header ul {
+     
+            padding: 10px;
+        }
+       #footer{
+        display: flex;
+        background-color:rgba(41,40,38 );
+        width: 100%;
+        height: 250px;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+        bottom: 10px;
+       
+       }
+      
+       #leftpart{
+        width: 100px;
+        height: 20%;
+        margin: 10px;
+       }
+       #rightpart {
+        display: flex;
+       }
+       #middlepart{
+            color: white;
+            padding-left: 370px; 
+            
+        }
+       
+        
+        
+       .fa {
+            padding: 10px;
+            font-size: 25px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin:  25px 10px;
+            float: left;
+            
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-facebook {
+            background: #3B5998;
+            color: white;
+            }
+
+            .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            }
+
+            .fa-google {
+            background: #dd4b39;
+            color: white;
+            }
+            .fa-instagram {
+            background: #125688;
+            color: white;}
+                
+      
+       #main{
+        display: flex;
+        justify-content: center;
+       
+       }
+       #bx1{
+        width: 900px;
+        height: 400px;
+        margin: 10px;
+       
+       }
+       #pic{
+        background-image: url(./Assets/seattle.jfif);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: 650px; 
+        border-radius: 15px 15px 15px 15px;
+       
+       }
+       .txt{
+        position:relative;
+        bottom: -340px;
+        left: 40px;
+        font-size:xx-large ;
+        font-family:   rush Script MT, Brush Script Std, cursive;;
+        color: rgb(233, 223, 223);
+       }
+       #bx2{
+        width: 900px;
+        height: 400px;
+        margin: 10px;
+      
+       }
+       #pic1{
+        background-image: url(./Assets/metro.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: 650px; 
+        border-radius: 15px 15px 15px 15px;
+       
+       }
+       #name{
+        position:relative;
+        bottom: -340px;
+        left: 40px;
+        font-size:xx-large ;
+        font-family:  rush Script MT, Brush Script Std, cursive;
+        color: rgb(231, 225, 225);
+       }
+       
+       #m1{
+        display: flex;
+        justify-content: center;
+       }
+       #bx3{
+        width: 700px;
+        height: 400px;
+       
+        margin: 10px;
+        
+       }
+       #pic2{
+         background-image: url(./Assets/sport.jpg);
+         width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: 780px; 
+        border-radius: 15px 15px 15px 15px;
+       }
+       .submenu{
+        display: none;
+       }
+       #menu a {
+        font-family:  rush Script MT, Brush Script Std, cursive;
+        color: #fff;
+               } 
+       #menu li:hover .submenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(41, 40, 38 );
+        border-radius: 10px;
+        font-family:  rush Script MT, Brush Script Std, cursive;
+        font-size: medium;
+       }
+       a{
+        text-decoration: none;
+        font-size: large;
+       }
+      
+
+       
+       </style>
+    </head>
+
+    <body style="background-color: antiquewhite;" >
+        <div id="header">
+            <div id="logo">
+                <a href="index.html">  
+                    <img src="./Assets/Logo/logo.png" alt="logo"  >
+                </a> 
+            </div>
+            
+                <ul id="menu" >
+                  
+                        <li><a href="index.html">Home</a></li>
+                        <li> <a href="aboutus.html" > About Us</a></li>
+                        <li  >
+                         Coffee Blends
+                          <ul class="submenu">
+                             <li> <a href="uniqueblends.html">UniqueBlends </a> </li>
+                             
+                             <li> <a href="classics.html"> classics </a></li>
+                          </ul>
+                        </li>
+                        <li > <a href="brewing-equipment.html"> Brewing Equipment </a></li>
+                        <li  > <a href="Learn-with us.html">Learn With Us </a></li>
+                       
+                        <li > <a href="Contact.html">Contact</a> </li>
+                 
+               </ul>
+        </div>
+        
+      
+        <br>
+        <h1>Our Cafes</h1>
+         <img src="./Assets/cbf.jpeg" alt="image" width="1330px" height="900px">
+         <br>
+         <br>
+         <br>
+         <u> <center ><label for="heading" ><h1>Our Cafes:</h1></label></center></u>
+         <div id="main">
+            <div id="bx1">
+                <div id="pic">
+                   <b><div class="txt">1st and Pike , Seattle..</div></b> 
+                </div>
+            </div>
+            <div id="bx2">
+                <div id="pic1">
+                   <b><div id="name">Metro Market, Milwaukee..</div></b> 
+                </div>
+            </div>
+           
+         </div>
+         <div id="m1" > 
+            <div id="bx3">
+            <div id="pic2"> 
+                <b><div id="name">Williamsport, Pennsylvania..</div></b> 
+            </div>
+         </div>
+        </div>
+
+
+
+
+       
+          <br>
+          <br>
+          <br>
+          <div id="footer">
+            
+         <div id="footer">
+
+            <div id="leftpart">
+                <a href="index.html">
+                 <img src="./Assets/Logo/logo.png" alt="logo" width="150px">
+                </a>
+            
+             </div>
+            
+             <div id="middlepart">
+                 
+                <h3>Products</h3>
+                <a href="our cafes.html"><h4><u style="color: white">Our coffee</u></h4></a>
+                <a href="https://www.flipkart.com/coffee-makers/pr?sid=j9e,m38,wqo">
+                 <h4><u style="color:white ;">Coffee machine</u></h4></a>
+                <h4><u>Service</u></h4>
+             </div>
+             <div style="color: white;">
+                 <h3 >Need help ?</h3>
+                 <a href="Contact.html"> <h4 style="color:white ;"><u>customer care</u></h4></a>
+                 <h4><u> call:+764735498</u></h4>
+              </div>
+                
+ 
+             <div id="rightpart">
+                 <h3 style="color:white ; padding: 10px;">Follow us on</h3>
+               <div id="b1">
+                 <a href="https://www.facebook.com/" class="fa fa-facebook"></a>  
+                 <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                 <a href="https://www.google.co.in/" class="fa fa-google"></a>
+                 <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+               </div>
+             </div>
+          
+          </div>
+      
+    </body>
+</html>

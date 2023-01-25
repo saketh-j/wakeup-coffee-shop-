@@ -1,0 +1,267 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>about us page</title>
+
+       <style>
+         *{
+            box-sizing: border-box;
+        }
+        #logo img {
+            width: 105px;
+            padding-left: 20px;
+        }
+        #header ul li {
+            display: inline-block;
+            margin: 10px;
+            padding: 1px;
+            font-size: large;
+            font-family:  rush Script MT, Brush Script Std, cursive;
+            color: #fff;
+        }
+        #header {
+            display: flex ;
+            justify-content: space-between;
+            background-color: rgba(41, 40, 38);
+            
+        } 
+        #header ul {
+            padding: 10px;
+        }
+       #footer{
+        display: flex;
+        background-color: rgba(41, 40, 38);
+        width: 100%;
+        height: 250px;
+        justify-content: space-between;
+        position:relative;
+        width: 100%;
+        bottom: 10px;
+       
+       }
+      
+       #leftpart{
+        width: 100px;
+        height: 20%;
+        margin: 10px;
+       }
+       #rightpart {
+        display: flex;
+        
+       }
+       #middlepart{
+            color: white;
+            padding-left: 370px; 
+            
+        }
+        
+       .fa {
+            padding: 10px;
+            font-size: 25px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin:  25px 10px;
+            float: left;
+            
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-facebook {
+            background: #3B5998;
+            color: white;
+            }
+
+            .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            }
+
+            .fa-google {
+            background: #dd4b39;
+            color: white;
+            }
+            .fa-instagram {
+            background: #125688;
+            color: white;}
+                
+       .submenu{
+        display: none;
+       }
+       #menu a {
+        font-family:  rush Script MT, Brush Script Std, cursive;
+     color: #fff;
+               }  
+
+       #menu li:hover .submenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(41, 40, 38 );
+        border-radius: 10px;
+        font-family:  rush Script MT, Brush Script Std, cursive;
+        font-size: larger;
+       }
+       a{
+        text-decoration: none;
+        font-size: large;
+       }
+       #topic,#topic1,#topic2{
+        display: flex;
+         padding: 20px;
+         font-size: larger;
+         margin-left: 10px;
+         font-family: rush Script MT, Brush Script Std, cursive;
+        
+       }
+       #img1 img{
+        width: 750px;
+        display: flex;
+        float: left;
+        
+       }
+       #img2 img{
+        width: 750px;
+        display: flex;
+        float: left;
+      } 
+      #img3 img{
+        width: 750px;
+        display: flex;
+        float: left;
+        
+      }
+       .txt {
+        text-align: center;
+          font-family: rush Script MT, Brush Script Std, cursive;
+       }
+       
+       .image{
+        width: 1500px;
+        object-fit: cover;
+        height: auto;
+       }
+       </style>
+    </head>
+
+    <body style="background-color: rgb(246, 237, 226);" >
+        <div id="header">
+            <div id="logo">
+                <a href="index.html">  
+                    <img src="./Assets/Logo/logo.png" alt="logo"  >
+                </a> 
+            </div>
+            
+                <ul id="menu">
+             
+                        <li><a href="index.html">Home</a></li>
+                        <li> <a href="aboutus.html" > About Us</a></li>
+                        <li  >
+                         Coffee Blends
+                          <ul class="submenu">
+                             <li> <a href="uniqueblends.html">UniqueBlends </a> </li>
+                             
+                             <li> <a href="classics.html"> classics </a></li>
+                          </ul>
+                        </li>
+                        <li > <a href="brewing-equipment.html"> Brewing Equipment </a></li>
+                        <li  > <a href="Learn-with us.html">Learn With Us </a></li>
+                       
+                        <li > <a href="Contact.html">Contact</a> </li>
+                   
+               </ul>
+        </div>
+      
+        <br>
+        <div>
+              <h1 class="txt">A spark can start a fire, an idea can start an empire..</h1>
+             <img src="./Assets/KaffeeChata-612x408.jpg" alt="image" class="image">
+
+        </div>
+        <br>
+        <div id="topic" >
+            <p>
+                <b>
+                The year was 1980 when WakeCup was imagined after experiencing some of the finest 
+                coffees on an educational trip to Brazil and the South Americas. We wanted to break the 
+                monotony of low profile, non-descript coffee that was doing rounds in those cafeterias of the 
+                80s. But life threw us in a different direction, and we ended up in the tech industry with a 
+                desire to get into the world of coffee someday.
+               </b>
+            </p>
+        </div>
+        <div id="img1">
+            <img src="./Assets/content.jfif" alt="image" >
+            <img src="./Assets/new.jpg" alt="image">
+        </div>
+        <div id="topic1">
+            <p>
+                <b>
+                    In 2005, that dream was brought to fruition when we quit our jobs and started WakeCup. 
+                    Ever since then, we’ve gone around the world in search for the best beans and we couldn’t 
+                    be happier. We love spreading smiles through our coffee. Our quest has taken us around the 
+                    world to some of the finest plantations and estates, many of whom work with us directly or 
+                    indirectly.
+                </b>
+            </p>
+        </div>
+        <div id="img2">
+            <img src="./Assets/plant.jpg" alt="image" width="665px" height="450px">
+            <img src="./Assets/plant2.jpg" alt="image" width="660px" height="450px">
+        </div>
+        <div id="topic2">
+            <p>
+                <b>
+                    In 2016 we started conducting workshops and became the primary sponsors of the Bean King 
+                    Champion contest. Our baristas have won global accolades and we love serving cuppa 
+                    goodness.
+                </b>
+            </p>
+        </div>
+        <div id="img3">
+            <img src="./Assets/pexels-photo-1374151.jpeg" alt="image" width="665px" height="450px">
+            <img src="./Assets/p1.jpeg" alt="image" width="660px" height="450px">
+        </div>
+       
+
+          <div id="footer">
+         <div id="footer">
+
+            <div id="leftpart">
+                <a href="index.html">
+                 <img src="./Assets/Logo/logo.png" alt="logo" width="150px">
+                </a>
+            
+             </div>
+            
+             <div id="middlepart">
+                <h3>Products</h3>
+                <a href="our cafes.html"><h4><u style="color: white">Our coffee</u></h4></a>
+                <a href="https://www.flipkart.com/coffee-makers/pr?sid=j9e,m38,wqo">
+                 <h4><u style="color:white ;">Coffee machine</u></h4></a>
+                <h4><u>Service</u></h4>
+             </div>
+             <div style="color: white;">
+                 <h3 >Need help ?</h3>
+                 <a href="Contact.html"> <h4 style="color:white ;"><u>customer care</u></h4></a>
+                 <h4><u> call:+764735498</u></h4>
+              </div>
+                
+ 
+             <div id="rightpart">
+                 <h3 style="color:white ; padding: 10px;">Follow us on</h3>
+               <div id="b1">
+                 <a href="https://www.facebook.com/" class="fa fa-facebook"></a>  
+                 <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                 <a href="https://www.google.co.in/" class="fa fa-google"></a>
+                 <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+               </div>
+             </div>
+          </div>
+      
+    </body>
+</html>
